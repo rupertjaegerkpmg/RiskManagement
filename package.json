@@ -14,7 +14,7 @@
     "hdb": "^0.18.3",
     "@sap/xssec": "^3",
     "passport": "^0",
-    "@sap/cds": "^7",
+    "@sap/cds": "^6",
     "express": "^4"
   },
   "devDependencies": {
@@ -22,7 +22,7 @@
     "sqlite3": "^5.0.4"
   },
   "scripts": {
-    "start": "cds-serve",
+    "start": "cds run",
     "watch-risks": "cds watch --open risks/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "eslintConfig": {
