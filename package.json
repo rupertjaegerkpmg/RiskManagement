@@ -64,6 +64,9 @@
       },
       "uaa": {
         "kind": "xsuaa"
+      },
+      "[production]": {
+        "auth": "xsuaa"
       }
     },
     "hana": {
